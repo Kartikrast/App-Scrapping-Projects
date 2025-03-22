@@ -1,0 +1,63 @@
+2025-03-22 20:44:16,198 - INFO - Attempting to locate element: search_explore
+2025-03-22 20:44:18,160 - INFO - Element located and clicked: search_explore
+2025-03-22 20:44:19,292 - INFO - Attempting to locate element: search_bar
+2025-03-22 20:44:20,876 - INFO - Element located and clicked: search_bar
+2025-03-22 20:44:23,155 - INFO - Attempting to locate element: search_bar_text
+2025-03-22 20:44:24,016 - INFO - Element located and clicked: search_bar_text
+2025-03-22 20:51:34,615 - INFO - Attempting to locate element: search_explore
+2025-03-22 20:51:34,695 - ERROR - Failed to locate or click element: search_explore. Error: Message: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+    at UIA2Proxy.command (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.helpers.doFindElementOrEls (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\commands\find.js:32:12)
+    at doFind (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:36:17)
+    at wrappedCondFn (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\timeout.js:151:12)
+    at spin (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:138:20)
+    at waitForCondition (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:155:10)
+    at AndroidUiautomator2Driver.implicitWaitForCondition (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\timeout.js:153:10)
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:60:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2025-03-22 20:51:42,283 - INFO - Checking if device is connected...
+2025-03-22 20:51:42,396 - INFO - List of devices attached
+R9ZWA07928P	device
+
+
+2025-03-22 20:51:56,952 - INFO - Driver initialized successfully
+2025-03-22 20:52:55,594 - INFO - X_PATHS: {'search_explore': '//android.widget.FrameLayout[@content-desc="Search and explore"]', 'search_bar': '//android.widget.EditText[@resource-id="com.instagram.android:id/action_bar_search_edit_text"]', 'search_bar_text': '//android.widget.FrameLayout[@resource-id="com.instagram.android:id/action_bar_search_hints_text_layout"]'}
+2025-03-22 20:53:14,205 - INFO - Attempting to locate element: search_explore
+2025-03-22 20:53:16,811 - INFO - Element located and clicked: search_explore
+2025-03-22 20:53:17,935 - INFO - Attempting to locate element: search_bar
+2025-03-22 20:53:19,846 - INFO - Element located and clicked: search_bar
+2025-03-22 20:53:20,977 - INFO - Attempting to locate element: search_bar_text
+2025-03-22 20:53:21,862 - INFO - Element located and clicked: search_bar_text
+2025-03-22 20:53:45,590 - INFO - Attempting to locate element: search_explore
+2025-03-22 20:53:49,012 - INFO - Element located and clicked: search_explore
+2025-03-22 20:53:50,193 - INFO - Attempting to locate element: search_bar
+2025-03-22 20:53:51,028 - INFO - Element located and clicked: search_bar
+2025-03-22 20:53:52,994 - INFO - Attempting to locate element: search_bar_text
+2025-03-22 20:53:53,787 - INFO - Element located and clicked: search_bar_text
+2025-03-22 21:00:25,459 - INFO - Attempting to locate element: search_explore
+2025-03-22 21:00:26,240 - INFO - Element located and clicked: search_explore
+2025-03-22 21:00:27,374 - INFO - Attempting to locate element: search_bar
+2025-03-22 21:00:28,290 - INFO - Element located and clicked: search_bar
+2025-03-22 21:00:29,393 - INFO - Attempting to locate element: search_bar_text
+2025-03-22 21:00:29,918 - INFO - Element located and clicked: search_bar_text
+2025-03-22 21:02:00,307 - INFO - X_PATHS: {'search_explore': '//android.widget.FrameLayout[@content-desc="Search and explore"]', 'search_bar': '//android.widget.EditText[@resource-id="com.instagram.android:id/action_bar_search_edit_text"]', 'search_bar_text': '//android.widget.EditText[@resource-id="com.instagram.android:id/row_thread_composer_edittext"]'}
+2025-03-22 21:02:15,872 - INFO - Attempting to locate element: search_explore
+2025-03-22 21:02:16,584 - INFO - Element located and clicked: search_explore
+2025-03-22 21:02:17,660 - INFO - Attempting to locate element: search_bar
+2025-03-22 21:02:18,473 - INFO - Element located and clicked: search_bar
+2025-03-22 21:02:20,427 - INFO - Attempting to locate element: search_bar_text
+2025-03-22 21:02:31,055 - ERROR - Failed to locate element: search_bar_text. Error: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\hp\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2025-03-22 21:07:34,104 - INFO - X_PATHS: {'search_explore': '//android.widget.FrameLayout[@content-desc="Search and explore"]', 'search_bar': '//android.widget.EditText[@resource-id="com.instagram.android:id/action_bar_search_edit_text"]', 'search_bar_text': '//android.widget.EditText[@resource-id="com.instagram.android:id/action_bar_search_edit_text"]', 'search_result': '//android.widget.TextView[@resource-id="com.instagram.android:id/row_search_user_username" and @text="None"]'}
+2025-03-22 21:12:02,793 - INFO - X_PATHS: {'search_explore': '//android.widget.FrameLayout[@content-desc="Search and explore"]', 'search_bar': '//android.widget.EditText[@resource-id="com.instagram.android:id/action_bar_search_edit_text"]', 'search_bar_text': '//android.widget.EditText[@resource-id="com.instagram.android:id/action_bar_search_edit_text"]', 'search_result': '//android.widget.TextView[@resource-id="com.instagram.android:id/row_search_user_username" and @text="None"]'}
