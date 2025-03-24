@@ -1,0 +1,53 @@
+2025-03-24 15:53:11,806 - INFO - Attempting to locate element: search_bar
+2025-03-24 15:53:13,433 - INFO - Successfully located element: search_bar
+2025-03-24 15:53:15,090 - INFO - Successfully clicked search_bar
+2025-03-24 15:53:16,096 - INFO - Processing user: navneet_ks_
+2025-03-24 15:53:16,099 - INFO - Attempting to locate element: search_bar_text
+2025-03-24 15:53:16,626 - INFO - Successfully located element: search_bar_text
+2025-03-24 15:53:18,730 - INFO - Successfully searched for user: navneet_ks_
+2025-03-24 15:53:21,896 - INFO - Successfully selected search result
+2025-03-24 15:53:24,900 - INFO - Attempting to locate element: message_button
+2025-03-24 15:53:28,029 - INFO - Successfully located element: message_button
+2025-03-24 15:53:28,143 - INFO - Successfully clicked message button
+2025-03-24 15:53:30,153 - INFO - Attempting to locate element: message_text
+2025-03-24 15:53:31,093 - INFO - Successfully located element: message_text
+2025-03-24 15:53:32,616 - INFO - Successfully entered message: test: 0
+2025-03-24 15:53:34,617 - INFO - Attempting to locate element: send_button
+2025-03-24 15:53:35,321 - INFO - Successfully located element: send_button
+2025-03-24 15:53:37,472 - INFO - Successfully sent message
+2025-03-24 15:53:39,509 - INFO - Data saved successfully
+2025-03-24 15:53:40,922 - INFO - Successfully returned to search page
+2025-03-24 15:53:40,923 - INFO - Processing user: candidpavscene
+2025-03-24 15:53:40,924 - INFO - Attempting to locate element: search_bar_text
+2025-03-24 15:53:42,857 - INFO - Successfully located element: search_bar_text
+2025-03-24 15:53:44,502 - INFO - Successfully searched for user: candidpavscene
+2025-03-24 15:53:47,364 - INFO - Successfully selected search result
+2025-03-24 15:53:50,368 - INFO - Attempting to locate element: message_button
+2025-03-24 15:53:51,982 - INFO - Successfully located element: message_button
+2025-03-24 15:53:52,128 - INFO - Successfully clicked message button
+2025-03-24 15:53:54,134 - INFO - Attempting to locate element: message_text
+2025-03-24 15:53:55,016 - INFO - Successfully located element: message_text
+2025-03-24 15:53:56,370 - INFO - Successfully entered message: test: 1
+2025-03-24 15:53:58,373 - INFO - Attempting to locate element: send_button
+2025-03-24 15:53:59,096 - INFO - Successfully located element: send_button
+2025-03-24 15:54:01,048 - INFO - Successfully sent message
+2025-03-24 15:54:03,080 - INFO - Data saved successfully
+2025-03-24 15:54:04,468 - INFO - Successfully returned to search page
+2025-03-24 15:54:04,471 - INFO - Processing user: sevainternal
+2025-03-24 15:54:04,473 - INFO - Attempting to locate element: search_bar_text
+2025-03-24 15:54:06,066 - INFO - Successfully located element: search_bar_text
+2025-03-24 15:54:07,944 - INFO - Successfully searched for user: sevainternal
+2025-03-24 15:54:10,533 - INFO - Successfully selected search result
+2025-03-24 15:54:13,550 - INFO - Attempting to locate element: message_button
+2025-03-24 15:54:14,872 - INFO - Successfully located element: message_button
+2025-03-24 15:54:15,214 - INFO - Successfully clicked message button
+2025-03-24 15:54:17,225 - INFO - Attempting to locate element: message_text
+2025-03-24 15:54:17,946 - INFO - Successfully located element: message_text
+2025-03-24 15:54:18,767 - INFO - Successfully entered message: test: 2
+2025-03-24 15:54:20,774 - INFO - Attempting to locate element: send_button
+2025-03-24 15:54:21,460 - INFO - Successfully located element: send_button
+2025-03-24 15:54:22,713 - INFO - Successfully sent message
+2025-03-24 15:54:24,724 - INFO - Data saved successfully
+2025-03-24 15:54:26,082 - INFO - Successfully returned to search page
+2025-03-24 15:54:26,089 - INFO - Data saved successfully
+2025-03-24 15:54:26,089 - INFO - Program execution completed
