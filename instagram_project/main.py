@@ -141,10 +141,15 @@ try:
             logging.info("Successfully selected search result")
             time.sleep(3)
             
-            message_button = find_element('message_button')
-            message_button.click()
-            logging.info("Successfully clicked message button")
-            time.sleep(2)
+            try:
+                message_button = find_element('message_button')
+                message_button.click()
+                logging.info("Successfully clicked message button")
+                time.sleep(2)
+            except:
+                logging.info("Message button not found, skipping to next profile...")
+                driver.back()
+                continue
             
             message_text = find_element('message_text')
             message_text.click()
