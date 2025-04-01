@@ -1,8 +1,16 @@
-import os
+import re
 import time
+import numpy as np
 import pandas as pd
+import os
+from datetime import datetime
+import logging
+from logging.handlers import RotatingFileHandler
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class TikTokScraper:
     def __init__(self, counter, input_file):
